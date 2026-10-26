@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "6f1b271b3d46d0ef2b95f5eae5ac2b4ad517e8dc"
+        "sha": "f1b3b9b772a310e9e4523005564eae7f479a673f"
       },
       "description": "Grundfunktionen für IRIS, zum Beispiel Morgen-Briefing und Videos ins Brain."
     },
@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-netzwerk",
-        "sha": "6f1b271b3d46d0ef2b95f5eae5ac2b4ad517e8dc"
+        "sha": "f1b3b9b772a310e9e4523005564eae7f479a673f"
       },
       "description": "Neuigkeiten aus dem beruflichen Netzwerk, Glückwünsche als Entwurf."
     }
