@@ -1,0 +1,9 @@
+{
+  "name": "iris-netzwerk",
+  "displayName": "IRIS Netzwerk",
+  "version": "0.1.0",
+  "description": "Neuigkeiten aus dem beruflichen Netzwerk, Glückwünsche als Entwurf.",
+  "author": {
+    "name": "IRIS Skills"
+  }
+}
