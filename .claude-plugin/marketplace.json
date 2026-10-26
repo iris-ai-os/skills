@@ -1,0 +1,29 @@
+{
+  "name": "iris-skills",
+  "description": "Skills für IRIS",
+  "owner": {
+    "name": "IRIS Skills"
+  },
+  "plugins": [
+    {
+      "name": "iris-core",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iris-ai-os/skills.git",
+        "path": "plugins/iris-core",
+        "sha": "6f1b271b3d46d0ef2b95f5eae5ac2b4ad517e8dc"
+      },
+      "description": "Grundfunktionen für IRIS, zum Beispiel Morgen-Briefing und Videos ins Brain."
+    },
+    {
+      "name": "iris-netzwerk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iris-ai-os/skills.git",
+        "path": "plugins/iris-netzwerk",
+        "sha": "6f1b271b3d46d0ef2b95f5eae5ac2b4ad517e8dc"
+      },
+      "description": "Neuigkeiten aus dem beruflichen Netzwerk, Glückwünsche als Entwurf."
+    }
+  ]
+}
