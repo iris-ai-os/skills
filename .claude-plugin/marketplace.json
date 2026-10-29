@@ -11,19 +11,19 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "f1b3b9b772a310e9e4523005564eae7f479a673f"
+        "sha": "dc1a2cc9bd138630e37a52e461740cac732a2678"
       },
-      "description": "Grundfunktionen für IRIS, zum Beispiel Morgen-Briefing und Videos ins Brain."
+      "description": "Was jede und jeder mit IRIS braucht: Morgen-Briefing, ein Gespräch, in dem Claude dich kennenlernt, und dein Mindprint, damit Texte nach dir klingen."
     },
     {
-      "name": "iris-netzwerk",
+      "name": "iris-lernen",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
-        "path": "plugins/iris-netzwerk",
-        "sha": "f1b3b9b772a310e9e4523005564eae7f479a673f"
+        "path": "plugins/iris-lernen",
+        "sha": "dc1a2cc9bd138630e37a52e461740cac732a2678"
       },
-      "description": "Neuigkeiten aus dem beruflichen Netzwerk, Glückwünsche als Entwurf."
+      "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
     }
   ]
 }
