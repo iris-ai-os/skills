@@ -1,8 +1,8 @@
 {
   "name": "iris-core",
   "displayName": "IRIS Core",
-  "version": "0.2.0",
-  "description": "Grundfunktionen für IRIS, zum Beispiel Morgen-Briefing und Videos ins Brain.",
+  "version": "2026.11.0",
+  "description": "Was jede und jeder mit IRIS braucht: Morgen-Briefing, ein Gespräch, in dem Claude dich kennenlernt, und dein Mindprint, damit Texte nach dir klingen.",
   "author": {
     "name": "IRIS Skills"
   }

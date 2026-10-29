@@ -18,6 +18,7 @@ IRIS ist das persönliche Gedächtnis der Person, angebunden über die IRIS-Verb
 
 - Kommt im Gespräch etwas Dauerhaftes und Wichtiges vor (Entscheidung, neue Information über eine Person, Zusage, Vorliebe), anbieten, es in IRIS zu speichern.
 - Erst nach ausdrücklicher Zustimmung speichern, mit `iris-capture`, kurz und mit Datum.
+- Ausnahme YouTube: Ein geschickter YouTube-Link ist selbst der Auftrag. Dann ohne Nachfrage nach dem Skill youtube-ins-brain vorgehen; die Notiz legt IRIS dort selbst ab.
 - Wird das Speichern abgelehnt, nicht erneut versuchen, sondern sagen: "Zum Speichern muss IRIS bei dir mindestens auf der Stufe Entwerfen stehen."
 
 ## Grenzen
