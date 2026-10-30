@@ -15,7 +15,7 @@ Verbindungen (Postfach, Kalender, Dateien, Aufnahmen) und der Ausschluss von Ord
 
 1. **Stand lesen, still.** Suche mit `iris-search` nach "Einrichtung Stand". Gibt es die Seite `einrichtung/stand`, lies sie mit `iris-get_page`. Ruf `iris-get_page` nie auf eine Seite auf, die die Suche nicht gefunden hat, und erwähne eine fehlende Seite nicht: Beim ersten Start ist das der Normalfall.
    - Gibt es einen Stand: Sage in einem Satz, welche Schritte fertig sind, und mach beim ersten offenen Schritt weiter. Bei einem angefangenen Schritt sage ehrlich, dass nur Bestätigtes gespeichert ist.
-2. **Speichern prüfen, still.** Schau, ob dir die IRIS-Verbindung `iris-put_page` oder wenigstens `iris-capture` anbietet. Fehlen beide, stelle keine Fragen: Sage in einem Satz "IRIS steht bei dir nur auf Lesen, deshalb kann ich nichts speichern. Bitte deinen Betreiber, das Brain auf Verwalten zu stellen, dann starten wir." und höre auf. Kündige nie an, das später zu klären.
+2. **Speichern prüfen, still.** Schau, ob dir die IRIS-Verbindung `iris-put_page` anbietet. Fehlt es, stelle keine Fragen: Sage in einem Satz "IRIS ist bei dir noch nicht fertig eingerichtet, deshalb kann ich die Einrichtung nicht speichern." und höre auf. Kündige nie an, das später zu klären.
 3. **Blick ins Brain.** Suche mit `iris-search` nach zwei, drei allgemeinen Begriffen (zum Beispiel "Rechnung", "Termin", "Vertrag") und sage in einem Satz, aus welchen Arten von Quellen IRIS schon etwas kennt (Mails, Dokumente, Gespräche, Videos). Nenne keine Seitenzahlen: `iris-sources_list` zeigt dir nicht alle Quellen und liefert zu kleine Zahlen. Die genauen Zahlen stehen im Portal unter Status. Keine Inhalte, keine Namen, keine Betreffzeilen. Findet die Suche nichts, sage das und verweise auf "Verbindungen" im Portal.
 4. **Einstieg in drei Sätzen:** Vier kurze Schritte, etwa 15 Minuten, jederzeit unterbrechbar, mit "Weiter mit der Einrichtung" geht es später an derselben Stelle weiter. Jede Frage darf übersprungen werden. Nach jedem Schritt liest du vor, was du speicherst, und speicherst erst nach "Passt".
 
@@ -59,21 +59,30 @@ Lege nie Seiten für Personen, Firmen oder Objekte an und schreibe nie auf solch
 
 ## Speichern
 
+Alles aus dem Gespräch steht nur auf Seiten unter `einrichtung/`. So kann die Person später jede Angabe ändern oder streichen lassen. Lege keine Einzelfakten an (kein `iris-remember`, kein `iris-capture`).
+
+Jede Seite beginnt mit diesem Kopf, damit IRIS daraus keine Einzelfakten ableitet, die sich nicht mehr streichen ließen:
+
+```
+---
+type: concept
+---
+```
+
 Nach jedem bestätigten Schritt:
 
-1. **Schrittseite** `einrichtung/modul-N` (N = 1 bis 4). Gibt es sie schon (Suche oder Stand), lies sie zuerst mit `iris-get_page`, denn `iris-put_page` ersetzt die ganze Seite. Schreibe sie mit `iris-put_page`: bisheriger Inhalt plus das Neue, in den Worten der Person, mit Datum und dem Vermerk "Quelle: Einrichtungsgespräch".
-2. **Identität.** Nach Schritt 2 zusätzlich `einrichtung/identitaet`: Name, wobei IRIS zuerst helfen soll, Ton, was IRIS nie tun soll.
-3. **Einzelfakten.** Mit `iris-remember` nur Grenzen, "nie tun", Ziele und Beraterinnen oder Berater, je ein Fakt, mit Quelle "Einrichtungsgespräch" und Datum. Alles andere bleibt auf der Schrittseite.
-4. **Stand.** Danach `einrichtung/stand` mit `iris-put_page` schreiben (vorhandenen Stand vorher lesen): welche Schritte fertig sind und wann, womit es weitergeht.
+1. **Schrittseite** `einrichtung/modul-N` (N = 1 bis 4). Gibt es sie schon (Suche oder Stand), lies sie zuerst mit `iris-get_page`, denn `iris-put_page` ersetzt die ganze Seite. Schreibe sie mit `iris-put_page`: Kopf, bisheriger Inhalt plus das Neue, in den Worten der Person, mit Datum und dem Vermerk "Quelle: Einrichtungsgespräch".
+2. **Identität.** Nach Schritt 2 zusätzlich `einrichtung/identitaet`: Name, wobei IRIS zuerst helfen soll, Ton, was IRIS nie tun soll. Andere Skills lesen diese Seite zu Beginn jedes Gesprächs.
+3. **Stand.** Danach `einrichtung/stand` mit `iris-put_page` schreiben (vorhandenen Stand vorher lesen): welche Schritte fertig sind und wann, womit es weitergeht.
 
-Lehnt die IRIS-Verbindung `iris-put_page` ab, speichere stattdessen mit `iris-capture` und sage in einem Satz: "Zum Ersetzen von Seiten muss IRIS bei dir auf der Stufe Verwalten stehen, ich lege die Notiz deshalb als neue Erfassung ab." Lehnt sie auch das ab, sage, was fehlt, und versuche es nicht erneut.
+Nach dem Speichern sage in einem Satz, dass der Schritt gespeichert ist. Gib technische Rückmeldungen der Werkzeuge (Quellen, Dateien, Repositories, Kennungen) nicht weiter. Nur wenn das Speichern scheitert, sage das in einem Satz und versuche es nicht erneut.
 
 ## Löschwünsche
 
 Sagt die Person "Vergiss X" oder "das nicht speichern":
 
 - Steht X auf einer Seite unter `einrichtung/`, entferne es dort: Seite lesen, X streichen, mit `iris-put_page` zurückschreiben, und sage, was geändert wurde.
-- Für bereits gespeicherte Einzelfakten und für Seiten außerhalb von `einrichtung/` sage ehrlich, dass das Löschen im Portal oder auf einer höheren Stufe passiert und du es hier nicht kannst. Umgehe das nicht, auch nicht durch Überschreiben mit leeren Inhalten.
+- Steht X nur außerhalb von `einrichtung/` (zum Beispiel in Mails oder Dokumenten), sage ehrlich, dass du das hier nicht löschen kannst. Nenne keinen anderen Weg und keine andere Person, die das könnte. Umgehe es nicht, auch nicht durch Überschreiben mit leeren Inhalten.
 
 ## Regeln
 

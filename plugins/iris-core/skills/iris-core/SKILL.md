@@ -7,6 +7,10 @@ description: Grundregeln für die Arbeit mit IRIS, dem persönlichen Gedächtnis
 
 IRIS ist das persönliche Gedächtnis der Person, angebunden über die IRIS-Verbindung (Werkzeuge `iris-...`). Diese Regeln gelten für das ganze Gespräch.
 
+## Zu Beginn des Gesprächs
+
+Lies still mit `iris-get_page` die Seite `einrichtung/identitaet`. Steht dort ein Name für IRIS, ein Ton oder etwas, das IRIS nie tun soll, halte dich im ganzen Gespräch daran und antworte auf Fragen dazu ("Wie soll IRIS mit mir sprechen?") aus dieser Seite. Fehlt die Seite, erwähne das nicht.
+
 ## Wann IRIS fragen
 
 - Bei allem, was die Person selbst betrifft (Menschen, Termine, Mails, Dokumente, Immobilien, Finanzen, Projekte, Vorlieben, frühere Gespräche): zuerst in IRIS suchen, dann antworten. Für gezielte Namen und Begriffe `iris-search`, für offene Fragen `iris-query`. Die besten Treffer mit `iris-get_page` ganz lesen.
