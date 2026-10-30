@@ -1,8 +1,8 @@
 {
   "name": "iris-core",
   "displayName": "IRIS Core",
-  "version": "2026.11.3",
-  "description": "Was jede und jeder mit IRIS braucht: Morgen-Briefing, ein Gespräch, in dem Claude dich kennenlernt, und dein Mindprint, damit Texte nach dir klingen.",
+  "version": "2026.11.4",
+  "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, und ein Gespräch, in dem Claude dich kennenlernt.",
   "author": {
     "name": "IRIS Skills"
   }

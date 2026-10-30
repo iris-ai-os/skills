@@ -32,6 +32,6 @@ IRIS ist das persönliche Gedächtnis der Person, angebunden über die IRIS-Verb
 
 ## IRIS-Check
 
-Schreibt die Person "IRIS-Check", `iris-whoami` aufrufen und antworten:
+Schreibt die Person "IRIS-Check", `iris-whoami` aufrufen und mit genau einem dieser Sätze antworten, ohne weiteren Text und ohne Angaben aus der Antwort von `iris-whoami` (keine Token-, Konto- oder Servernamen):
 - bei Erfolg: "IRIS ist bereit: Grundregeln geladen, Verbindung steht."
 - sonst: "Grundregeln geladen, aber die IRIS-Verbindung antwortet nicht. Bitte den IRIS-Konnektor in den Einstellungen verbinden."
