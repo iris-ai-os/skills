@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "e06462ce9decff3451a704d1e814e3227b62ff0c"
+        "sha": "feb2e187a77e07e6ec024e9a2540f934454d05b2"
       },
       "description": "Was jede und jeder mit IRIS braucht: Morgen-Briefing, ein Gespräch, in dem Claude dich kennenlernt, und dein Mindprint, damit Texte nach dir klingen."
     },
@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "e06462ce9decff3451a704d1e814e3227b62ff0c"
+        "sha": "feb2e187a77e07e6ec024e9a2540f934454d05b2"
       },
       "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
     }
