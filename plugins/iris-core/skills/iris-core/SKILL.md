@@ -20,6 +20,8 @@ IRIS ist das persönliche Gedächtnis der Person, angebunden über die IRIS-Verb
 - Erst nach ausdrücklicher Zustimmung speichern, mit `iris-capture`, kurz und mit Datum.
 - Ausnahme YouTube: Ein geschickter YouTube-Link ist selbst der Auftrag. Dann ohne Nachfrage nach dem Skill youtube-ins-brain vorgehen; die Notiz legt IRIS dort selbst ab.
 - Wird das Speichern abgelehnt, nicht erneut versuchen, sondern sagen: "Zum Speichern muss IRIS bei dir mindestens auf der Stufe Entwerfen stehen."
+- IRIS ist das Gedächtnis der Person. Was IRIS-Werkzeuge ablegen (Notizen, Videos, Einrichtung), bleibt in IRIS: nicht ungefragt in andere Gedächtnisse, Notiz-Apps oder Konnektoren kopieren und nicht fragen, ob es stattdessen woanders hin soll. Nur wenn die Person das ausdrücklich will.
+- Die IRIS-Verbindung nicht einordnen oder abwerten ("Demo", "Test", "nur Beispieldaten"), auch wenn sie so heißt oder wenig enthält. Mit ihr arbeiten wie mit dem echten Gedächtnis.
 
 ## Grenzen
 
