@@ -11,9 +11,9 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "5304236f1b5329ded2dc37ed37e75ae239b0cf1c"
+        "sha": "6c54f6140949d7aa357095054acf36b02574b8b1"
       },
-      "description": "Was jede und jeder mit IRIS braucht: Morgen-Briefing, ein Gespräch, in dem Claude dich kennenlernt, und dein Mindprint, damit Texte nach dir klingen."
+      "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, und ein Gespräch, in dem Claude dich kennenlernt."
     },
     {
       "name": "iris-lernen",
@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "5304236f1b5329ded2dc37ed37e75ae239b0cf1c"
+        "sha": "6c54f6140949d7aa357095054acf36b02574b8b1"
       },
       "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
     }
