@@ -34,6 +34,7 @@ Dann direkt die erste Frage aus Schritt 1.
 **1 Grenzen** (höchstens drei Fragen).
 - Gibt es Themen, die nie in IRIS sollen?
 - Wenn es um andere Menschen geht: 1 nur Name und Rolle, 2 auch Details, die du erzählst, 3 jedes Mal vorher fragen.
+- Soll IRIS Seiten zu den Menschen anlegen, denen du schreibst? Darauf stehen nur Name, Adresse, wann ihr zuletzt Kontakt hattet und Links zu euren Mails, nichts aus dem Inhalt. 1 ja, 2 nein. Die Antwort gehört auf die Seite `einrichtung/stammdaten` als `personen: ja` oder `personen: nein` (siehe Speichern).
 - Optional: Soll außer dir noch jemand Zugriff haben?
 
 Sage hier einmal: Erzählt die Person etwas über andere Menschen, hältst du das nur im gewählten Umfang fest. Ganze Ordner oder Quellen schließt sie im Portal aus, Zugriff vergibt sie dort ebenfalls. Im Gespräch hältst du die Wünsche nur fest. Alle späteren Schritte halten sich an diese Grenzen.
@@ -48,6 +49,7 @@ Sage hier einmal: Erzählt die Person etwas über andere Menschen, hältst du da
 - Was machst du beruflich, und was beschäftigt dich gerade?
 - Drei bis fünf Ziele, jeweils in einem Satz.
 - Die wichtigsten Ansprechpersonen, nur Name und Rolle (zum Beispiel Steuerberaterin, Hausverwaltung), im Umfang aus Schritt 1.
+- Erkannte Immobilien und Firmen: Liste mit `iris-list_pages` die Seiten vom Typ `objekt` und `firma` und nenne nur ihre Titel. Frage: "Stimmt das so, fehlt etwas, oder ist etwas keine Immobilie bzw. Firma?" Korrekturen gehören auf `einrichtung/stammdaten` (`objekte_zusaetzlich`, `keine_objekte`, `firmen_zusaetzlich`, `keine_firmen`), so wie im Skill iris-core beschrieben. Gibt es noch keine solchen Seiten, überspringe die Frage.
 
 **4 Rhythmus** (kurz, optional). Wann soll es einen Überblick geben, wann ist Ruhe? Welche Fristen sollen im Blick bleiben? Du hältst die Wünsche nur fest, du aktivierst nichts und richtest keinen Zeitplan ein.
 
@@ -55,7 +57,7 @@ Sage hier einmal: Erzählt die Person etwas über andere Menschen, hältst du da
 
 ## Menschen, Firmen und Objekte
 
-Lege nie Seiten für Personen, Firmen oder Objekte an und schreibe nie auf solche Seiten, das erledigt IRIS nachts selbst. Nennst du eine Ansprechperson auf der Schrittseite, suche vorher mit `iris-search`, ob es schon eine Seite unter `personen/...` oder `objekte/...` gibt, und verlinke sie dann per Wikilink, zum Beispiel `[[personen/erika-muster]]`. Sonst nur Name und Rolle als Text.
+Lege nie Seiten für Personen, Firmen oder Objekte an und schreibe nie auf solche Seiten, das erledigt IRIS nachts selbst. Nennst du eine Ansprechperson auf der Schrittseite, suche vorher mit `iris-search`, ob es schon eine Seite unter `personen/...`, `firmen/...` oder `objekte/...` gibt, und verlinke sie dann per Wikilink, zum Beispiel `[[personen/erika-muster]]`. Sonst nur Name und Rolle als Text. Nennt die Person eine Rolle mit Mailadresse, trage sie zusätzlich unter `rollen` auf `einrichtung/stammdaten` ein (`adresse = Rolle`).
 
 ## Speichern
 
@@ -73,7 +75,8 @@ Nach jedem bestätigten Schritt:
 
 1. **Schrittseite** `einrichtung/modul-N` (N = 1 bis 4). Gibt es sie schon (Suche oder Stand), lies sie zuerst mit `iris-get_page`, denn `iris-put_page` ersetzt die ganze Seite. Schreibe sie mit `iris-put_page`: Kopf, bisheriger Inhalt plus das Neue, in den Worten der Person, mit Datum und dem Vermerk "Quelle: Einrichtungsgespräch".
 2. **Identität.** Nach Schritt 2 zusätzlich `einrichtung/identitaet`: Name, wobei IRIS zuerst helfen soll, Ton, was IRIS nie tun soll. Andere Skills lesen diese Seite zu Beginn jedes Gesprächs.
-3. **Stand.** Danach `einrichtung/stand` mit `iris-put_page` schreiben (vorhandenen Stand vorher lesen): welche Schritte fertig sind und wann, womit es weitergeht.
+3. **Stammdaten.** Hat die Person in Schritt 1 oder 3 etwas zu Personenseiten, Immobilien, Firmen oder Rollen gesagt, schreibe `einrichtung/stammdaten` nach den Regeln aus iris-core: vorhandene Seite lesen, nur das Frontmatter ändern, zurückschreiben.
+4. **Stand.** Danach `einrichtung/stand` mit `iris-put_page` schreiben (vorhandenen Stand vorher lesen): welche Schritte fertig sind und wann, womit es weitergeht.
 
 Nach dem Speichern sage in einem Satz, dass der Schritt gespeichert ist. Gib technische Rückmeldungen der Werkzeuge (Quellen, Dateien, Repositories, Kennungen) nicht weiter. Nur wenn das Speichern scheitert, sage das in einem Satz und versuche es nicht erneut.
 
