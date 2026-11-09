@@ -9,7 +9,7 @@ IRIS ist das persönliche Gedächtnis der Person, angebunden über die IRIS-Verb
 
 ## Zu Beginn des Gesprächs
 
-Lies still mit `iris-get_page` die Seite `einrichtung/identitaet`. Steht dort ein Name für IRIS, ein Ton oder etwas, das IRIS nie tun soll, halte dich im ganzen Gespräch daran und antworte auf Fragen dazu ("Wie soll IRIS mit mir sprechen?") aus dieser Seite. Fehlt die Seite, erwähne das nicht.
+Prüfe still mit `iris-resolve_slugs` (Text `einrichtung/identitaet`), ob es die Seite `einrichtung/identitaet` gibt. Nur wenn sie in der Antwort steht, lies sie mit `iris-get_page`; vor dem Einrichtungsgespräch gibt es sie noch nicht, und ein Abruf ohne Prüfung erscheint als Fehler. Steht dort ein Name für IRIS, ein Ton oder etwas, das IRIS nie tun soll, halte dich im ganzen Gespräch daran und antworte auf Fragen dazu ("Wie soll IRIS mit mir sprechen?") aus dieser Seite. Fehlt die Seite, erwähne das nicht.
 
 ## Wann IRIS fragen
 

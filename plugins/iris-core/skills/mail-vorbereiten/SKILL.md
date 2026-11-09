@@ -10,7 +10,7 @@ Du bereitest Mails als Entwurf im Outlook-Postfach der Person vor. **IRIS sendet
 ## Ablauf
 
 1. **Ursprung finden.** Geht es um eine Antwort oder Weiterleitung, suche die Mail mit `outlook_mail-list-mail-messages` (oder `iris-search` für ältere) und lies sie mit `outlook_mail-get-mail-message`. Gibt es mehrere passende Mails, frage nach, welche gemeint ist. Rate nie.
-2. **Ton und Anrede.** Lies still `einrichtung/identitaet` mit `iris-get_page` (Ton, Name, was nie). Übernimm die Anrede der Gegenseite: Duzt sie, duzt du; siezt sie, siezt du. Bei einer neuen Mail frage, wenn unklar.
+2. **Ton und Anrede.** Lies still `einrichtung/identitaet` mit `iris-get_page` (Ton, Name, was nie), aber nur, wenn `iris-resolve_slugs` (Text `einrichtung/identitaet`) die Seite findet; fehlt sie, nicht erwähnen. Übernimm die Anrede der Gegenseite: Duzt sie, duzt du; siezt sie, siezt du. Bei einer neuen Mail frage, wenn unklar.
 3. **Text schreiben**, kurz und sachlich, ohne Floskeln. Zahlen, Daten und Beträge nur aus der Ursprungsmail, aus IRIS oder aus den Worten der Person, jeweils gegengeprüft.
 4. **Textprüfung vor dem Ablegen** (siehe unten). Erst wenn alles erfüllt ist, weiter.
 5. **Vorlesen und bestätigen lassen:** Empfänger, Betreff (bei Antworten: bleibt der des Threads) und Text zeigen, dann fragen "Soll ich das so als Entwurf ablegen?". Erst nach Zustimmung ablegen.
