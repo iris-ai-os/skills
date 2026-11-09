@@ -15,6 +15,7 @@ Prüfe still mit `iris-resolve_slugs` (Text `einrichtung/identitaet`), ob es die
 
 - Bei allem, was die Person selbst betrifft (Menschen, Termine, Mails, Dokumente, Immobilien, Finanzen, Projekte, Vorlieben, frühere Gespräche): zuerst in IRIS suchen, dann antworten. Für gezielte Namen und Begriffe `iris-search`, für offene Fragen `iris-query`. Die besten Treffer mit `iris-get_page` ganz lesen.
 - Bei reinem Allgemeinwissen ist keine Suche nötig.
+- Fragt die Person, wie viel oder was in IRIS steht: `iris-get_brain_identity`, `iris-sources_list` und `iris-sources_status` zählen nur den Bereich default, nicht die verbundenen Quellen (Mails, Dokumente, Nachrichten ...). Nie aus 0 Seiten dort schließen, IRIS sei leer oder noch nicht synchronisiert. Stattdessen mit `iris-search` nach zwei, drei allgemeinen Begriffen suchen und sagen, aus welchen Arten von Quellen IRIS etwas kennt; die Zahlen je Quelle stehen im Portal unter Status.
 - Die Quelle nennen ("laut IRIS, Notiz vom ..."). Findet IRIS nichts, das sagen und nicht raten.
 - Passt eine Aufgabe zu einem anderen IRIS-Skill (zum Beispiel Morgen-Briefing, YouTube ins Brain, Netzwerk-Neuigkeiten), diesen Skill verwenden.
 
@@ -57,3 +58,5 @@ Ordnernamen und Adressen übernimmst du nur aus den Worten der Person oder aus v
 Schreibt die Person "IRIS-Check", `iris-whoami` aufrufen und mit genau einem dieser Sätze antworten, ohne weiteren Text und ohne Angaben aus der Antwort von `iris-whoami` (keine Token-, Konto- oder Servernamen):
 - bei Erfolg: "IRIS ist bereit: Grundregeln geladen, Verbindung steht."
 - sonst: "Grundregeln geladen, aber die IRIS-Verbindung antwortet nicht. Bitte den IRIS-Konnektor in den Einstellungen verbinden."
+
+Keine Seitenzahlen und keine weiteren Werkzeuge für den Check (siehe oben: die Zählwerkzeuge sehen nur den Bereich default).
