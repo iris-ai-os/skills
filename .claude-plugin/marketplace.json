@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "8d081bf8f31838fa9e41a714f9cea27e531b1b3e"
+        "sha": "0efbddb720b136e1cf7d2353875c38280d8ef7a1"
       },
       "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, ein Gespräch, in dem Claude dich kennenlernt, und Mails, die Claude als Entwurf für dich vorbereitet."
     },
@@ -21,9 +21,19 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "8d081bf8f31838fa9e41a714f9cea27e531b1b3e"
+        "sha": "0efbddb720b136e1cf7d2353875c38280d8ef7a1"
       },
       "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
+    },
+    {
+      "name": "iris-strategieberatung",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iris-ai-os/skills.git",
+        "path": "plugins/iris-strategieberatung",
+        "sha": "0efbddb720b136e1cf7d2353875c38280d8ef7a1"
+      },
+      "description": "Strategische Fragen strukturieren: Treiber, Ursachen und Risiken, mit Plan vor der Antwort."
     }
   ]
 }
