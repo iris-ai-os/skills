@@ -1,3 +1,9 @@
+---
+titel: Ursachenanalyse
+kurz: Findet Ursachen nach Ishikawa und gräbt mit 5-Why nach
+gruppe: Diagnose
+---
+
 # Ursachenanalyse (Ishikawa mit 5-Why)
 
 Sammelt mögliche Ursachen einer unerwünschten Wirkung geordnet nach Ursachenfeldern (Fischgräte nach Ishikawa) und verfolgt die wichtigsten mit 5-Why bis zu einer Wurzel, die man beeinflussen kann.

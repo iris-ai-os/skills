@@ -1,3 +1,9 @@
+---
+titel: Risiken
+kurz: Findet Risiken per Pre-Mortem, mit Frühindikator je Risiko
+gruppe: Absicherung
+---
+
 # Risiken (Pre-Mortem)
 
 Findet die künftigen Ereignisse, die einen Plan scheitern lassen könnten, bewertet sie und legt für jedes wichtige Risiko einen Frühindikator und eine Gegenmaßnahme fest.

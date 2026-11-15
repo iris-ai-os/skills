@@ -1,3 +1,9 @@
+---
+titel: KPI-Baum
+kurz: Zerlegt eine Zielgröße rechnerisch in beeinflussbare Treiber
+gruppe: Absicherung
+---
+
 # KPI-Baum
 
 Zerlegt eine Zielgröße rechnerisch in ihre Treiber, bis die Blätter beeinflussbar und messbar sind. Auch Treiberbaum genannt.
