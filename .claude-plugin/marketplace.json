@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "4396510b4a1d43a682ff87effe4ca6d8d35bea30"
+        "sha": "976063580f459a7fdf558a750b7f58ef1c73b7c1"
       },
       "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, ein Gespräch, in dem Claude dich kennenlernt, und Mails, die Claude als Entwurf für dich vorbereitet."
     },
@@ -21,9 +21,19 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "4396510b4a1d43a682ff87effe4ca6d8d35bea30"
+        "sha": "976063580f459a7fdf558a750b7f58ef1c73b7c1"
       },
       "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
+    },
+    {
+      "name": "iris-produktivitaet",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iris-ai-os/skills.git",
+        "path": "plugins/iris-produktivitaet",
+        "sha": "976063580f459a7fdf558a750b7f58ef1c73b7c1"
+      },
+      "description": "Mehr Zeit für das Wichtige: Mails, Termine und deine Woche."
     },
     {
       "name": "iris-strategieberatung",
@@ -31,7 +41,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-strategieberatung",
-        "sha": "4396510b4a1d43a682ff87effe4ca6d8d35bea30"
+        "sha": "976063580f459a7fdf558a750b7f58ef1c73b7c1"
       },
       "description": "Strategische Fragen wie in einem Beratungsprojekt bearbeiten: Frage schärfen, planen, Fakten sammeln, rechnen, Storyline bauen, prüfen und Termine vorbereiten."
     }
