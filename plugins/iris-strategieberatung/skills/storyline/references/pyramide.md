@@ -1,3 +1,9 @@
+---
+titel: Pyramidenprinzip
+kurz: Kernfrage, Kernbotschaft, Argumente als Gruppe oder Kette
+gruppe: Kommunikation
+---
+
 # Pyramide im Detail
 
 Vertiefung zu den Schritten in `SKILL.md`. Grundlage ist das Pyramidenprinzip nach Barbara Minto, in der deutschsprachigen Beratungspraxis vielfach weiterentwickelt. Die Texte hier sind eigene Formulierungen.

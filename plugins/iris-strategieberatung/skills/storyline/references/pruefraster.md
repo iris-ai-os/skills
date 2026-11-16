@@ -1,3 +1,9 @@
+---
+titel: Prüfraster
+kurz: Prüft Kernbotschaft und jede Ebene der Pyramide
+gruppe: Kommunikation
+---
+
 # Prüfraster
 
 Zwei Prüfungen: eine für die Kernbotschaft, eine für jede Ebene der Pyramide.
