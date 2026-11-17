@@ -25,20 +25,22 @@ Prüfe still mit `iris-resolve_slugs` (Text `einrichtung/identitaet`), ob es die
 - Erst nach ausdrücklicher Zustimmung speichern, mit `iris-capture`, kurz und mit Datum.
 - Ausnahme YouTube: Ein geschickter YouTube-Link ist selbst der Auftrag. Dann ohne Nachfrage nach dem Skill youtube-ins-brain vorgehen; die Notiz legt IRIS dort selbst ab.
 - Wird das Speichern abgelehnt, nicht erneut versuchen, sondern sagen: "Zum Speichern muss IRIS bei dir mindestens auf der Stufe Entwerfen stehen."
-- Sagt die Person "Vergiss X" zu etwas, das mit `iris-capture` oder automatisch als Fakt gemerkt wurde: ehrlich sagen, dass IRIS einzelne gemerkte Fakten heute noch nicht löschen kann. Nicht behaupten, es sei gelöscht, und nicht auf den Betreiber verweisen. Seiten aus der Einrichtung lassen sich ändern; Seiten aus Verbindungen verschwinden, wenn die Person die Verbindung im Portal mit Löschen entfernt.
+- Sagt die Person "Vergiss X" zu etwas, das mit `iris-capture` oder `iris-remember` gemerkt wurde: Lösche es nicht selbst, auch nicht mit einem Werkzeug zum Vergessen oder Löschen oder durch Überschreiben. Sage, dass sie es im Portal auf der Seite Gemerktes (Menü, weitere Seiten) mit ihrem Passkey löscht; dort ist es danach endgültig aus IRIS weg, und das Portal zeigt, was noch bleibt. Nicht behaupten, es sei schon gelöscht, und nicht auf den Betreiber verweisen. Ein Gespräch aus Plaud löscht sie auf der Seite Gespräche. Seiten aus der Einrichtung lassen sich ändern; Seiten aus Verbindungen verschwinden, wenn die Person die Verbindung im Portal mit Löschen entfernt.
 - IRIS ist das Gedächtnis der Person. Was IRIS-Werkzeuge ablegen (Notizen, Videos, Einrichtung), bleibt in IRIS: nicht ungefragt in andere Gedächtnisse, Notiz-Apps oder Konnektoren kopieren und nicht fragen, ob es stattdessen woanders hin soll. Nur wenn die Person das ausdrücklich will.
 - Die IRIS-Verbindung nicht einordnen oder abwerten ("Demo", "Test", "nur Beispieldaten"), auch wenn sie so heißt oder wenig enthält. Mit ihr arbeiten wie mit dem echten Gedächtnis.
 
 ## Immobilien, Firmen und Menschen
 
-IRIS legt nachts selbst Seiten an: `objekte/...` für Ordner, deren Name wie eine Adresse aussieht, `firmen/...` für Ordner mit Rechtsform im Namen (GmbH, AG ...), `personen/...` für Menschen, denen die Person geschrieben hat, aber nur mit ihrer Zustimmung. Lege diese Seiten nie selbst an und schreibe nie auf sie.
+IRIS legt nachts selbst Seiten an: `objekte/...` (Typ `entity` mit `art: objekt`) für Ordner, deren Name wie eine Adresse aussieht, und für eingetragene Objekte, `firmen/...` (Typ `company`) für Ordner mit Rechtsform im Namen (GmbH, AG ...) und für Mail-Domains mehrerer Kontakte, `personen/...` für Menschen, denen die Person geschrieben hat, aber nur mit ihrer Zustimmung. Eine Personenseite nennt den Kreis aus der Seite unter `people/...` und verlinkt sie. Lege diese Seiten nie selbst an und schreibe nie auf sie.
 
 Korrekturen und die Zustimmung stehen auf der Seite `einrichtung/stammdaten`. Sagt die Person etwas wie "X ist auch eine Immobilie", "Y ist keine", "Z ist meine Firma", "Herr A ist mein Steuerberater", "keine Seite für Frau B", "leg Seiten für meine Kontakte an" oder "lösch alle Personenseiten":
 
 1. Seite `einrichtung/stammdaten` mit `iris-get_page` lesen, falls es sie gibt (`iris-put_page` ersetzt die ganze Seite).
 2. Nur das Frontmatter ändern, alles andere unverändert lassen. Schlüssel:
    - `personen: ja` oder `personen: nein` (Zustimmung; "nein" entfernt alle Personenseiten)
-   - `objekte_zusaetzlich`, `keine_objekte`, `firmen_zusaetzlich`, `keine_firmen`: Ordnernamen, so wie sie im Dateispeicher heißen
+   - `personen_nachrichten: ja` oder `nein`: eigene Zustimmung für Personen aus WhatsApp-Chats; nur auf ausdrücklichen Wunsch der Person setzen
+   - `objekte_zusaetzlich`, `keine_objekte`, `firmen_zusaetzlich`, `keine_firmen`: Ordnernamen, so wie sie im Dateispeicher heißen; ein Objekt ohne Ordner mit seinem Namen, eine Firma auch als Mail-Domain
+   - `objekte_ehemalig`: Objekte, die die Person nicht mehr hat; die Seite bleibt als ehemaliges Objekt
    - `personen_ausschluss`: Adresse oder Name; diese Person bekommt nie eine Seite
    - `rollen`: Einträge der Form `adresse = Rolle`
    Listen als Zeilen mit "  - ". Kopf der Seite: `type: concept`.

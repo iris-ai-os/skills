@@ -49,7 +49,7 @@ Sage hier einmal: Erzählt die Person etwas über andere Menschen, hältst du da
 - Was machst du beruflich, und was beschäftigt dich gerade?
 - Drei bis fünf Ziele, jeweils in einem Satz.
 - Die wichtigsten Ansprechpersonen, nur Name und Rolle (zum Beispiel Steuerberaterin, Hausverwaltung), im Umfang aus Schritt 1.
-- Erkannte Immobilien und Firmen: Liste mit `iris-list_pages` die Seiten vom Typ `objekt` und `firma` und nenne nur ihre Titel. Frage: "Stimmt das so, fehlt etwas, oder ist etwas keine Immobilie bzw. Firma?" Korrekturen gehören auf `einrichtung/stammdaten` (`objekte_zusaetzlich`, `keine_objekte`, `firmen_zusaetzlich`, `keine_firmen`), so wie im Skill iris-core beschrieben. Gibt es noch keine solchen Seiten, überspringe die Frage.
+- Erkannte Immobilien und Firmen: Liste mit `iris-list_pages` die Seiten unter `objekte/` (Typ `entity` mit `art: objekt`) und `firmen/` (Typ `company`) und nenne nur ihre Titel. Frage: "Stimmt das so, fehlt etwas, oder ist etwas keine Immobilie bzw. Firma?" Korrekturen gehören auf `einrichtung/stammdaten` (`objekte_zusaetzlich`, `keine_objekte`, `firmen_zusaetzlich`, `keine_firmen`), so wie im Skill iris-core beschrieben. Gibt es noch keine solchen Seiten, überspringe die Frage.
 
 **4 Rhythmus** (kurz, optional). Wann soll es einen Überblick geben, wann ist Ruhe? Welche Fristen sollen im Blick bleiben? Du hältst die Wünsche nur fest, du aktivierst nichts und richtest keinen Zeitplan ein.
 
