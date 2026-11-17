@@ -39,6 +39,7 @@ Korrekturen und die Zustimmung stehen auf der Seite `einrichtung/stammdaten`. Sa
 2. Nur das Frontmatter ändern, alles andere unverändert lassen. Schlüssel:
    - `personen: ja` oder `personen: nein` (Zustimmung; "nein" entfernt alle Personenseiten)
    - `personen_nachrichten: ja` oder `nein`: eigene Zustimmung für Personen aus WhatsApp-Chats; nur auf ausdrücklichen Wunsch der Person setzen
+   - `personen_imessage: ja` oder `nein`: eigene Zustimmung für Personen aus iMessage-Chats (mit SMS); nur auf ausdrücklichen Wunsch der Person setzen
    - `objekte_zusaetzlich`, `keine_objekte`, `firmen_zusaetzlich`, `keine_firmen`: Ordnernamen, so wie sie im Dateispeicher heißen; ein Objekt ohne Ordner mit seinem Namen, eine Firma auch als Mail-Domain
    - `objekte_ehemalig`: Objekte, die die Person nicht mehr hat; die Seite bleibt als ehemaliges Objekt
    - `personen_ausschluss`: Adresse oder Name; diese Person bekommt nie eine Seite
