@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "53ffed294f9af2c367c9199507d35ebb8d0a48f9"
+        "sha": "f1c54f3d70703931f96795f26d1298a3a31016a0"
       },
       "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, ein Gespräch, in dem Claude dich kennenlernt, und Mails, die Claude als Entwurf für dich vorbereitet."
     },
@@ -21,9 +21,19 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "53ffed294f9af2c367c9199507d35ebb8d0a48f9"
+        "sha": "f1c54f3d70703931f96795f26d1298a3a31016a0"
       },
       "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
+    },
+    {
+      "name": "iris-netzwerk",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/iris-ai-os/skills.git",
+        "path": "plugins/iris-netzwerk",
+        "sha": "f1c54f3d70703931f96795f26d1298a3a31016a0"
+      },
+      "description": "Bleib mit Menschen in Kontakt, die dir wichtig sind."
     },
     {
       "name": "iris-produktivitaet",
@@ -31,7 +41,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-produktivitaet",
-        "sha": "53ffed294f9af2c367c9199507d35ebb8d0a48f9"
+        "sha": "f1c54f3d70703931f96795f26d1298a3a31016a0"
       },
       "description": "Mehr Zeit für das Wichtige: Mails, Termine und deine Woche."
     },
@@ -41,7 +51,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-strategieberatung",
-        "sha": "53ffed294f9af2c367c9199507d35ebb8d0a48f9"
+        "sha": "f1c54f3d70703931f96795f26d1298a3a31016a0"
       },
       "description": "Strategische Fragen wie in einem Beratungsprojekt bearbeiten: Frage schärfen, planen, Fakten sammeln, rechnen, Storyline bauen, prüfen und Termine vorbereiten."
     }
