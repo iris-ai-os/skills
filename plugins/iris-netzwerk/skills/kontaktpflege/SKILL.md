@@ -2,7 +2,7 @@
 name: kontaktpflege
 description: >-
   Findet Menschen, mit denen der Kontakt länger ruht, als es ihr Kreis vorsieht (innerster Kreis 14 Tage,
-  nah 30 Tage, aktives Netzwerk 90 Tage oder der Rhythmus auf der Personenseite). Liefert eine kurze Liste
+  nah 90 Tage, aktives Netzwerk 180 Tage oder ein eigener Rhythmus auf der Personenseite). Liefert eine kurze Liste
   mit letztem Kontakt, offenen Zusagen und einem Anlass zum Melden; Entwürfe nur auf Wunsch, IRIS sendet
   nie. Nutzen bei "wen sollte ich mal wieder anschreiben", "bei wem sollte ich mich melden", "mit wem habe
   ich lange nicht gesprochen", "Kontaktpflege", "wer kommt zu kurz", "wen habe ich vernachlässigt",
