@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "0295d0a215a6d2ffb8572bf3016ccda2168edb4e"
+        "sha": "9451876936b63e2681a2f456c92b41f764eee07c"
       },
       "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, ein Gespräch, in dem Claude dich kennenlernt, und Mails, die Claude als Entwurf für dich vorbereitet."
     },
@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "0295d0a215a6d2ffb8572bf3016ccda2168edb4e"
+        "sha": "9451876936b63e2681a2f456c92b41f764eee07c"
       },
       "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
     },
@@ -31,7 +31,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-netzwerk",
-        "sha": "0295d0a215a6d2ffb8572bf3016ccda2168edb4e"
+        "sha": "9451876936b63e2681a2f456c92b41f764eee07c"
       },
       "description": "Bleib mit Menschen in Kontakt, die dir wichtig sind."
     },
@@ -41,7 +41,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-produktivitaet",
-        "sha": "0295d0a215a6d2ffb8572bf3016ccda2168edb4e"
+        "sha": "9451876936b63e2681a2f456c92b41f764eee07c"
       },
       "description": "Mehr Zeit für das Wichtige: Mails, Termine und deine Woche."
     },
@@ -51,7 +51,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-strategieberatung",
-        "sha": "0295d0a215a6d2ffb8572bf3016ccda2168edb4e"
+        "sha": "9451876936b63e2681a2f456c92b41f764eee07c"
       },
       "description": "Strategische Fragen wie in einem Beratungsprojekt bearbeiten: Frage schärfen, planen, Fakten sammeln, rechnen, Storyline bauen, prüfen und Termine vorbereiten."
     }
