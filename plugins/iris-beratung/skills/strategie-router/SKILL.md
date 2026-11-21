@@ -1,7 +1,7 @@
 ---
 name: strategie-router
 description: >-
-  Einstieg ins Paket Strategieberatung. Schärft eine strategische Frage, baut einen Hypothesenbaum,
+  Einstieg in das Modul Strategie des Pakets Beratung. Schärft eine strategische Frage, baut einen Hypothesenbaum,
   wählt aus 19 Methoden die passenden (u. a. KPI-Baum, Ursachenanalyse nach Ishikawa mit 5-Why,
   Marktgröße, Business Case, Preisgestaltung, Risiken), zeigt den Plan vor der Ausführung und liefert
   ein belegtes Ergebnis mit markierten Annahmen. Nutzt Wissen aus IRIS als Kontext. Nutzen bei "Was
