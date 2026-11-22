@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-beratung",
-        "sha": "fcf880d544f08d0f2a70e36a0f2265f460c0bc2b"
+        "sha": "9e792e955e88ffc5f299f57220a2be19105bf437"
       },
       "description": "Modul Strategie: Frage schärfen, planen, Fakten sammeln, rechnen, Storyline bauen, prüfen und Termine vorbereiten. Modul Prozess folgt."
     },
@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "fcf880d544f08d0f2a70e36a0f2265f460c0bc2b"
+        "sha": "9e792e955e88ffc5f299f57220a2be19105bf437"
       },
       "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, ein Gespräch, in dem Claude dich kennenlernt, und Mails, die Claude als Entwurf für dich vorbereitet."
     },
@@ -31,7 +31,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "fcf880d544f08d0f2a70e36a0f2265f460c0bc2b"
+        "sha": "9e792e955e88ffc5f299f57220a2be19105bf437"
       },
       "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen."
     },
@@ -41,7 +41,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-netzwerk",
-        "sha": "fcf880d544f08d0f2a70e36a0f2265f460c0bc2b"
+        "sha": "9e792e955e88ffc5f299f57220a2be19105bf437"
       },
       "description": "Bleib mit Menschen in Kontakt, die dir wichtig sind."
     },
@@ -51,7 +51,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-produktivitaet",
-        "sha": "fcf880d544f08d0f2a70e36a0f2265f460c0bc2b"
+        "sha": "9e792e955e88ffc5f299f57220a2be19105bf437"
       },
       "description": "Mehr Zeit für das Wichtige: Mails, Termine und deine Woche."
     }
