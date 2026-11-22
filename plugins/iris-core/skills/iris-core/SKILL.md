@@ -36,6 +36,11 @@ IRIS legt nachts selbst Seiten an: `objekte/...` (Typ `entity` mit `art: objekt`
 
 Die Seite `vorschlaege` (Quelle `stammdaten`) listet Menschen mit viel Austausch ohne Seite unter `people/...` und Mail-Domains mehrerer Kontakte ohne Firmenseite. Fragt die Person danach ("wen sollte ich anlegen", "welche Firmen fehlen"), lies sie und schlage vor. Legt die Person eine Firma unter `companies/...` an, trage die Domains im Kopf ein (`domains: [beispiel.de]`) und, wenn es Dokumente in Paperless gibt, den Korrespondenten genau wie dort geschrieben (`paperless_korrespondent: Name`, mehrere als Liste), eine Person unter `people/...` mit ihrer Mail-Adresse (`email:`). Nur so verknüpft IRIS die Stammdaten in der kommenden Nacht.
 
+Rolle, frühere Firmen und Kundenbeziehungen zeigt das Portal in der Netzwerk-Ansicht, wenn sie auf den Seiten der Person stehen. Nennt die Person sie ("A ist dort Einkaufsleiterin", "B war früher bei Firma X", "C ist unsere Ansprechpartnerin beim Kunden", "Firma Y ist Kunde von Z"), schreibe sie als eigene Zeile in die Seite unter `people/...` oder `companies/...` und lass alles andere unverändert:
+- Personenseite: `- Rolle: Einkaufsleiterin`, `- Früher: Firma X, Firma W` (mehrere durch Komma, Wikilinks auf `companies/...` erlaubt), `- Kundenseite: Ansprechpartnerin`
+- Firmenseite: `- Kundenseite: Kunde von Z`
+Steht schon eine solche Zeile da, ersetze sie. Übernimm Angaben nur aus den Worten der Person oder aus vorhandenen Seiten.
+
 Korrekturen und die Zustimmung stehen auf der Seite `einrichtung/stammdaten`. Sagt die Person etwas wie "X ist auch eine Immobilie", "Y ist keine", "Z ist meine Firma", "Herr A ist mein Steuerberater", "keine Seite für Frau B", "leg Seiten für meine Kontakte an" oder "lösch alle Personenseiten":
 
 1. Seite `einrichtung/stammdaten` mit `iris-get_page` lesen, falls es sie gibt (`iris-put_page` ersetzt die ganze Seite).
