@@ -1,8 +1,8 @@
 {
   "name": "iris-lernen",
   "displayName": "IRIS Lernen",
-  "version": "2026.11.21",
-  "description": "Lernen und Inspiration: Was du siehst und liest, landet auf Wunsch in deinem Wissen.",
+  "version": "2026.11.23",
+  "description": "Lernen und Inspiration: Lernkurse aus deinem Wissen, wiederholt im Portal wie bei Anki. Was du siehst und liest, landet auf Wunsch in deinem Wissen.",
   "author": {
     "name": "IRIS Skills"
   }
