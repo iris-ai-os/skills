@@ -26,7 +26,7 @@ Das Format der Seiten steht in `references/kursformat.md`. Lies es, bevor du ein
 
 1. **Klären, kurz.** Höchstens drei Fragen auf einmal: Thema und Ziel (wofür, bis wann), Vorwissen, Umfang (Vorschlag: drei bis sechs Kapitel mit je fünf bis zehn Begriffen und drei bis fünf Fragen). Gibt es schon Notizen im Wissen, frag, ob der Kurs darauf aufbauen soll, und lies sie mit `iris-search` und `iris-get_page`.
 2. **Gliederung vorschlagen.** Kurstitel, ein Satz Beschreibung, Kapitel mit je einem Satz. Warte auf Zustimmung oder Änderungen. Schreibe vorher nichts.
-3. **Inhalt erarbeiten.** Je Kapitel: Lesetext in kurzen Abschnitten, Begriffe mit einer Erklärung in einem Satz, Quizfragen mit drei oder vier Antworten, genau eine richtig, und einer Erklärung. Nutze, was du weißt, und, wo Fakten sich ändern (Zahlen, Gesetze, Grenzwerte), eine Websuche, falls du sie hast. Nenne bei solchen Fakten die Quelle im Lesetext mit Namen und Jahr. Erfinde keine Zahlen; bist du unsicher, schreib es dazu oder lass es weg.
+3. **Inhalt erarbeiten.** Je Kapitel: Lesetext in kurzen Abschnitten, Begriffe mit einer Erklärung in einem Satz, Quizfragen mit drei oder vier Antworten, meist genau eine richtig, und einer Erklärung. Bereitet der Kurs auf eine Prüfung mit Mehrfachauswahl vor (etwa eine Zertifizierung mit „multiple-selection“), mach gezielt einen Teil der Fragen zu Mehrfachauswahl: vier bis sechs Antworten, zwei oder drei richtig, und in der Frage, wie viele zu wählen sind („Wählen Sie zwei.“), so wie in der Prüfung. Nutze, was du weißt, und, wo Fakten sich ändern (Zahlen, Gesetze, Grenzwerte), eine Websuche, falls du sie hast. Nenne bei solchen Fakten die Quelle im Lesetext mit Namen und Jahr. Erfinde keine Zahlen; bist du unsicher, schreib es dazu oder lass es weg.
 4. **Speichern.** Erst die Kursseite, dann die Kapitel mit `iris-put_page`, genau im Format aus `references/kursformat.md`. Gibt es eine Seite schon, lies sie vorher mit `iris-get_page`, denn `iris-put_page` ersetzt die ganze Seite.
 5. **Abschluss in zwei Sätzen.** Wie viele Kapitel, Karten und Fragen angelegt sind, und dass der Kurs in wenigen Minuten im Portal unter Lernen steht, wo IRIS die Karten zur Wiederholung vorlegt.
 
@@ -46,7 +46,7 @@ Lies das passende Kapitel mit `iris-get_page` (Kurs über `iris-search` finden).
 
 ## Abfragen
 
-Nimm Begriffe und Fragen aus dem gewählten Kapitel oder Kurs. Stelle eine Frage nach der anderen, warte auf die Antwort, sag dann, ob es stimmt, mit der Erklärung aus dem Kurs. Am Ende: wie viele richtig, welche Begriffe noch wackeln. Sag dazu, dass die Abfrage im Gespräch den Lernstand nicht ändert; für die Wiederholung nach Plan gibt es die Seite Lernen im Portal. Biete an, wackelige Begriffe im Kurs besser zu erklären.
+Nimm Begriffe und Fragen aus dem gewählten Kapitel oder Kurs. Stelle eine Frage nach der anderen, warte auf die Antwort, sag dann, ob es stimmt, mit der Erklärung aus dem Kurs. Bei Mehrfachauswahl sag dazu, wie viele Antworten richtig sind, und nenne, was gefehlt hat oder zu viel war. Am Ende: wie viele richtig, welche Begriffe noch wackeln. Sag dazu, dass die Abfrage im Gespräch den Lernstand nicht ändert; für die Wiederholung nach Plan gibt es die Seite Lernen im Portal. Biete an, wackelige Begriffe im Kurs besser zu erklären.
 
 ## Regeln
 
