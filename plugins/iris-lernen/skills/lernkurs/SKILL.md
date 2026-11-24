@@ -24,13 +24,22 @@ Das Format der Seiten steht in `references/kursformat.md`. Lies es, bevor du ein
 
 ## Kurs anlegen
 
-1. **Klären, kurz.** Höchstens drei Fragen auf einmal: Thema und Ziel (wofür, bis wann), Vorwissen, Umfang (Vorschlag: drei bis sechs Kapitel mit je fünf bis zehn Begriffen und drei bis fünf Fragen). Gibt es schon Notizen im Wissen, frag, ob der Kurs darauf aufbauen soll, und lies sie mit `iris-search` und `iris-get_page`.
+1. **Klären, kurz.** Höchstens drei Fragen auf einmal: Thema und Ziel (wofür, bis wann), Vorwissen, Umfang (Vorschlag: drei bis sechs Kapitel mit je fünf bis zehn Begriffen und drei bis fünf Fragen). Gibt es schon Notizen im Wissen, frag, ob der Kurs darauf aufbauen soll, und lies sie mit `iris-search` und `iris-get_page`. Bereitet der Kurs auf eine Prüfung vor, gilt zusätzlich "Kurse für Prüfungen".
 2. **Gliederung vorschlagen.** Kurstitel, ein Satz Beschreibung, Kapitel mit je einem Satz. Warte auf Zustimmung oder Änderungen. Schreibe vorher nichts.
-3. **Inhalt erarbeiten.** Je Kapitel: Lesetext in kurzen Abschnitten, Begriffe mit einer Erklärung in einem Satz, Quizfragen mit drei oder vier Antworten, meist genau eine richtig, und einer Erklärung. Bereitet der Kurs auf eine Prüfung mit Mehrfachauswahl vor (etwa eine Zertifizierung mit „multiple-selection“), mach gezielt einen Teil der Fragen zu Mehrfachauswahl: vier bis sechs Antworten, zwei oder drei richtig, und in der Frage, wie viele zu wählen sind („Wählen Sie zwei.“), so wie in der Prüfung. Nutze, was du weißt, und, wo Fakten sich ändern (Zahlen, Gesetze, Grenzwerte), eine Websuche, falls du sie hast. Nenne bei solchen Fakten die Quelle im Lesetext mit Namen und Jahr. Erfinde keine Zahlen; bist du unsicher, schreib es dazu oder lass es weg.
+3. **Inhalt erarbeiten.** Je Kapitel: Lesetext in kurzen Abschnitten, Begriffe mit einer Erklärung in einem Satz, Quizfragen mit drei oder vier Antworten, meist genau eine richtig, und einer Erklärung. Bereitet der Kurs auf eine Prüfung mit Mehrfachauswahl vor (etwa eine Zertifizierung mit „multiple-selection“), mach gezielt einen Teil der Fragen zu Mehrfachauswahl: vier bis sechs Antworten, zwei oder drei richtig, und in der Frage, wie viele zu wählen sind („Wählen Sie zwei.“, auf Englisch „(Choose two.)“), so wie in der Prüfung. Nutze, was du weißt, und, wo Fakten sich ändern (Zahlen, Gesetze, Grenzwerte), eine Websuche, falls du sie hast. Nenne bei solchen Fakten die Quelle im Lesetext mit Namen und Jahr. Erfinde keine Zahlen; bist du unsicher, schreib es dazu oder lass es weg. Begriffe und Fragen nur für Fachwissen, nie für Formalien wie Prüfungsdauer, Zahl der Fragen, Kosten, Anmeldung oder die Organisation des Kurses; solche Angaben stehen nur im Lesetext.
 4. **Speichern.** Erst die Kursseite, dann die Kapitel mit `iris-put_page`, genau im Format aus `references/kursformat.md`. Gibt es eine Seite schon, lies sie vorher mit `iris-get_page`, denn `iris-put_page` ersetzt die ganze Seite.
 5. **Abschluss in zwei Sätzen.** Wie viele Kapitel, Karten und Fragen angelegt sind, und dass der Kurs in wenigen Minuten im Portal unter Lernen steht, wo IRIS die Karten zur Wiederholung vorlegt.
 
 Aus vorhandenen Notizen: Übernimm deren Inhalt in das Format, lass die alten Seiten unverändert stehen und verlinke sie auf der Kursseite per Wikilink. Lösche nie Seiten.
+
+## Kurse für Prüfungen
+
+Gilt für Kurse, die auf eine Zertifizierung oder eine andere Prüfung vorbereiten.
+
+- **Sprache der Prüfung prüfen.** Vor dem Schreiben auf der offiziellen Prüfungsseite oder im Prüfungsleitfaden nachsehen, in welchen Sprachen die Prüfung angeboten wird. Nennt die offizielle Seite keine Sprache, die Sprache des Leitfadens nehmen und Berichte von Kandidaten als Beleg dazu; die Quelle auf der Übersichtsseite nennen. Wird die Prüfung in mehreren Sprachen angeboten, fragen, in welcher die Person sie ablegt.
+- **Kurs in der Prüfungssprache.** Ist die Prüfung zum Beispiel nur auf Englisch, steht der ganze Kurs auf Englisch: Titel, Beschreibung, Lesetext, Begriffe, Fragen, Antworten, Erklärungen und die Übersichtsseite. Nicht aus dem Deutschen übersetzen, sondern direkt in der Prüfungssprache schreiben, mit den Fachbegriffen und dem Fragestil der Prüfung. So kennt die Person am Prüfungstag Begriffe und Formulierungen schon. Nur die Abschnittsnamen und `> Erklärung:` bleiben deutsch (siehe `references/kursformat.md`). Die Antwort an die Person im Gespräch bleibt in ihrer Sprache.
+- **Übersichtsseite.** Jeder Prüfungskurs bekommt als Kapitel 0 (`reihenfolge: 0`) eine kurze, faktenzentrierte Seite zum Prüfungsformat: Zahl und Art der Fragen, Zeit, Bestehensgrenze, Sprache, online oder Testcenter, Kosten, Hilfsmittel, Gültigkeit, Anmeldung, Gewichte der Abschnitte, Quellen mit Datum. Die Seite hat nur `## Lesen`, keine Begriffe und keine Fragen: Eckdaten der Prüfung werden nicht als Karteikarten abgefragt.
+- **Fragen wie in der Prüfung.** Fragetypen, Anteil der Mehrfachauswahl und Aufbau (etwa Szenarien mit mehreren Fragen oder Code-Schnipsel in der Sprache der Prüfung) so nachbilden, wie der Leitfaden sie beschreibt.
 
 ## Kurs ändern
 
@@ -46,7 +55,7 @@ Lies das passende Kapitel mit `iris-get_page` (Kurs über `iris-search` finden).
 
 ## Abfragen
 
-Nimm Begriffe und Fragen aus dem gewählten Kapitel oder Kurs. Stelle eine Frage nach der anderen, warte auf die Antwort, sag dann, ob es stimmt, mit der Erklärung aus dem Kurs. Bei Mehrfachauswahl sag dazu, wie viele Antworten richtig sind, und nenne, was gefehlt hat oder zu viel war. Am Ende: wie viele richtig, welche Begriffe noch wackeln. Sag dazu, dass die Abfrage im Gespräch den Lernstand nicht ändert; für die Wiederholung nach Plan gibt es die Seite Lernen im Portal. Biete an, wackelige Begriffe im Kurs besser zu erklären.
+Nimm Begriffe und Fragen aus dem gewählten Kapitel oder Kurs. Stelle eine Frage nach der anderen, warte auf die Antwort, sag dann, ob es stimmt, mit der Erklärung aus dem Kurs. Bei Mehrfachauswahl sag dazu, wie viele Antworten richtig sind, und nenne, was gefehlt hat oder zu viel war. Am Ende: wie viele richtig, welche Begriffe noch wackeln. Sag dazu, dass die Abfrage im Gespräch den Lernstand nicht ändert; für die Wiederholung nach Plan gibt es die Seite Lernen im Portal. Biete an, wackelige Begriffe im Kurs besser zu erklären. Steht der Kurs in einer anderen Sprache, stell die Fragen in der Kurssprache.
 
 ## Regeln
 
