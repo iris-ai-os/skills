@@ -1,0 +1,9 @@
+{
+  "name": "iris-finanzen",
+  "displayName": "IRIS Finanzen",
+  "version": "2026.11.25",
+  "description": "Behalte Geld, Belege und Verträge im Blick.",
+  "author": {
+    "name": "IRIS Skills"
+  }
+}
