@@ -11,7 +11,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-beratung",
-        "sha": "8fb4d85de4ddb02f65c4df7f385d8d36f59a1f27"
+        "sha": "8ddbeb0905e32febffee1a29e574f9fdfdf41c4d"
       },
       "description": "Modul Strategie: Fragen schärfen, planen, Fakten sammeln, rechnen und eine Storyline bauen. Modul Prozess: Abläufe abgrenzen, aufnehmen, analysieren, absichern und Use Cases für Agenten priorisieren."
     },
@@ -21,7 +21,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-core",
-        "sha": "8fb4d85de4ddb02f65c4df7f385d8d36f59a1f27"
+        "sha": "8ddbeb0905e32febffee1a29e574f9fdfdf41c4d"
       },
       "description": "Was jede und jeder mit IRIS braucht: die Grundregeln, mit denen Claude IRIS als dein Gedächtnis nutzt, ein Gespräch, in dem Claude dich kennenlernt, und Mails, die Claude als Entwurf für dich vorbereitet."
     },
@@ -31,7 +31,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-finanzen",
-        "sha": "8fb4d85de4ddb02f65c4df7f385d8d36f59a1f27"
+        "sha": "8ddbeb0905e32febffee1a29e574f9fdfdf41c4d"
       },
       "description": "Behalte Geld, Belege und Verträge im Blick."
     },
@@ -41,7 +41,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-lernen",
-        "sha": "8fb4d85de4ddb02f65c4df7f385d8d36f59a1f27"
+        "sha": "8ddbeb0905e32febffee1a29e574f9fdfdf41c4d"
       },
       "description": "Lernen und Inspiration: Lernkurse aus deinem Wissen, wiederholt im Portal wie bei Anki. Was du siehst und liest, landet auf Wunsch in deinem Wissen."
     },
@@ -51,7 +51,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-netzwerk",
-        "sha": "8fb4d85de4ddb02f65c4df7f385d8d36f59a1f27"
+        "sha": "8ddbeb0905e32febffee1a29e574f9fdfdf41c4d"
       },
       "description": "Bleib mit Menschen in Kontakt, die dir wichtig sind."
     },
@@ -61,7 +61,7 @@
         "source": "git-subdir",
         "url": "https://github.com/iris-ai-os/skills.git",
         "path": "plugins/iris-produktivitaet",
-        "sha": "8fb4d85de4ddb02f65c4df7f385d8d36f59a1f27"
+        "sha": "8ddbeb0905e32febffee1a29e574f9fdfdf41c4d"
       },
       "description": "Mehr Zeit für das Wichtige: Mails, Termine und deine Woche."
     }
